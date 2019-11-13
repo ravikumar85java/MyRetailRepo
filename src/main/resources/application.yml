@@ -1,0 +1,16 @@
+server:
+  port: 9090
+
+spring:
+  data:
+    mongodb:
+      database: drillmongolocal
+      uri: mongodb://localhost:27017
+
+
+redsky:
+  target:
+    com :
+      url: https://redsky.target.com/v2/pdp/tcin
+      excludesParam : taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics
+
